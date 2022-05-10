@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papas</title>
+
+    <style>
+        #papasfritas {
+            margin-left: 15%;
+            margin-top: -10%;
+        }
+
+        #margenArriba {
+            opacity: 0.7;
+            width: 2000px;
+            height: 100px;
+        }
+
+        #margenAbajo {
+            opacity: 0.7;
+        }
+
+        header {
+            color: #000;
+            width: 50%;
+            z-index: 100;
+            margin-left: 50%;
+        }
+
+        nav ul {
+            list-style: none;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 20px;
+            color: rgb(2, 2, 2);
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background: #0427ec;
+        }
+
+        .slider {
+            width: 95%;
+            overflow: hidden;
+        }
+
+        .slider ul {
+            display: flex;
+            padding: 0;
+            width: 400%;
+
+            animation: cambio 20s infinite alternate linear;
+        }
+
+        .slider li {
+            width: 100%;
+            list-style: none;
+        }
+
+        .slider img {
+            width: 100%;
+        }
+
+        @keyframes cambio {
+            0% {
+                margin-left: 0;
+            }
+
+            20% {
+                margin-left: 0;
+            }
+
+            25% {
+                margin-left: -100%;
+            }
+
+            45% {
+                margin-left: -100%;
+            }
+
+            50% {
+                margin-left: -200%;
+            }
+        }
+
+
+
+        .menu {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .menu li {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .menu li a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            background-color: grey;
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            border-radius: 100%;
+        }
+
+        .zoom {
+            cursor: pointer;
+            transition: transform .2s;
+        }
+
+        .zoom:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="somos.html">Quiénes Somos</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img id="papasfritas" src="img/papasInicio.png" height="85px" width="130px">
+    <div class="slider">
+        <ul>
+            <li>
+                <img src="img/slider/wp9472658.webp" alt="">
+            </li>
+            <li>
+                <img src="img/slider/7111230.webp" alt="">
+            </li>
+            <li>
+                <img src="img/slider/7111210.webp" alt="">
+            </li>
+            <li>
+                <img src="" alt="">
+            </li>
+        </ul>
+    </div>
+
+    <img class="zoom" src="img/zoom/zoom1.jpg" style="height: 250px; width: 200px; margin-left: 5%;">
+    <img class="zoom" src="img/zoom/zoom2.jpg" style="height: 250px; width: 200px; margin-left: 18%;">
+    <img class="zoom" src="img/zoom/zoom3.jpg"
+        style="height: 310px; width: 300px; margin-left: 14%; margin-bottom: -2%;"><br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GL9iINpRfyg" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe><br><br>
+
+    <p style="font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 45%; margin-top: -20%;">Patatas Fritas
+        French, es una
+        empresa fundada en 1987 dedicada a la fabricación de forma artesanal de patatas
+        fritas, pellets y frutos secos.
+        <br> <br>
+        Nuestra empresa se sitúa en Villacarrillo (Jaén), ciudad dentro del Parque natural de Cazorla, Segura y las
+        Villas y muy conocida por ser la ciudad que más aceite de oliva produce a nivel mundial.
+        <br> <br>
+        En Patatas Fritas Domi, comercializamos nuestros productos a través de los canales alimentación, horeca e
+        impulso con marca propia, dónde están presentes en la provincia de Jaén, Albacete, Ciudad Real y en alguna
+        ocasiones en cualquier punto del país.
+    </p>
+    <br><br><br><br><br>
+
+    <div id="margenAbajo" style="height: 50px; height: 60px; background-color: #0427ec;"></div>
+</body>
+
+</html>

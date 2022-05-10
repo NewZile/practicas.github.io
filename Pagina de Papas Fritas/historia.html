@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #papasfritas {
+            margin-left: 15%;
+            margin-top: -10%;
+        }
+
+        #margenArriba {
+            opacity: 0.7;
+            width: 2000px;
+            height: 100px;
+        }
+
+        #margenAbajo {
+            opacity: 0.7;
+        }
+
+        header {
+            color: #000;
+            width: 50%;
+            z-index: 100;
+            margin-left: 50%;
+        }
+
+        nav ul {
+            list-style: none;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 20px;
+            color: rgb(2, 2, 2);
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background: #0427ec;
+        }
+
+        .container {
+            margin: auto;
+            background-color: white;
+            width: 800px;
+            padding: 30px;
+        }
+
+        ul,
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        ul.slider {
+            position: relative;
+            width: 800px;
+            height: 300px;
+        }
+
+        ul.slider li {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            transition: opacity .5s;
+            background: #fff;
+
+        }
+
+        ul.slider li img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        ul.slider li:first-child {
+            opacity: 1;
+        }
+
+        ul.slider li:target {
+            opacity: 1;
+        }
+
+        .menu {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .menu li {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .menu li a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            background-color: grey;
+            padding: 10px;
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="somos.html">Quiénes Somos</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img id="papasfritas" src="img/papasInicio.png" height="85px" width="130px">
+    <h1 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">Más de 21 años juntos</h1>
+    <br><br><br><br><br><br><br>
+
+    <img id="papasfritas" src="img/somos/historia.jpg">
+
+
+    <p style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;">El comienzo de patatas fritas
+        french, fue en el año 1987 cuando su fundador, Domingo Martínez Torres, conocido por
+        FRENCH, empezó su aventura empresarial. <br> <br>
+
+        Todo tiene su origen en la ciudad natal de Domingo, Villacarrillo. Domingo trabajaba en una finca dónde le
+        dejaron sembrar garbanzos a cambio de hacerle un barbecho a la tierra, ese año tuvo una gran cosecha, y no sabía
+        qué hacer con esta gran cantidad de garbanzos, asique se le ocurrió la idea de tostarlos en casa de forma
+        artesanal en la lumbre de la cocina de su madre, pero como la sartén era insuficiente para esta gran cantidad,
+        se desplazó a tostaderos industriales de frutos secos y le ofreció sus garbanzos para que ellos los tostaran.
+        Empezó a venderlos por las tascas de su pueblo, dónde tuvieron un gran éxito , al mismo tiempo que vendía
+        garbanzos ,sus clientes , le preguntaban por otros productos, como cacahuetes, almendras, pistachos… y patatas
+        fritas.
+        <br> <br>
+        Cuando empezó a vender fuera de Villacarrillo, a los pueblos colindantes se dio cuenta de la gran competencia en
+        este sector, por lo que había que diferenciarse de los demás, creando productos de gran calidad. Y a esta
+        calidad, había que ponerle una marca, y que mejor marca que su propio nombre “FRENCH”.
+        <br> <br>
+        Aquel mismo año, con los beneficios de las ventas de los garbanzos, compró su primera furgoneta de segunda mano,
+        a un panadero. Esta furgoneta fue rotulada en el pueblo vecino de Villanueva del Arzobispo, por un famoso pintor
+        llamado “Nubla”. Domingo le pidió a este, que pusiese un logo a su marca, y este pintó la cara de un muñeco, que
+        tenía él cuando era niño. Hoy, veintiséis años después este muñeco sigue siendo , nuestra mascota de la empresa.
+        <br> <br>
+        Actualmente la empresa, se encuentra en el polígono industrial de Villacarrillo, en la comarca del parque
+        natural de Cazorla, Segura y las Villas, con unas instalaciones de más de 5000 metros cuadrados, dónde la
+        segunda generación formada por sus dos hijos, Antonio Javier y Angel, se encuentra muy implicada en la
+        fabricación y distribución de estos productos, aportando ganas, juventud y nuevas ideas en este proyecto, en la
+        actualidad la empresa cuenta con una plantilla de 16 trabajadores.
+        <br> <br>
+        Los productos” FRENCH” gozan de estar presentes en un 70 por cien de la provincia de Jaén y en las provincias
+        limítrofes como Albacete y Ciudad Real, y en alguna ocasión por cualquier parte de nuestro país, gracias a la
+        publicidad del boca a boca que se encuentra en los lineales de los supermercados y en el sector de la
+        Hostelería.</p>
+</body>
+
+</html>
